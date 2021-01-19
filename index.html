@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>  
+      <script src="js/app.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div><img src="images/logo_weather.png" alt="weather app logo"></div>
+            <div><h1>Application météo</h1></div>
+        </header>
+
+        <form action="">
+            <div>
+                <input type="text">
+                <input type="submit" value="Search">
+            </div>
+        </form>
+        <div id="not_found">
+            <p>Ville non trouvé</p>
+        </div>
+        <main>
+            <div class="main_div">
+                <div class="child_div box_div1">
+                    <div><p id="firstElement"></p> </div>
+                    <div ><p><i class="fas fa-thermometer-quarter"></i><br><span id="segondElement"></span></p></div>
+                </div>
+                <div class="child_div box_div2">
+                    <div>
+                        <p>
+                            <span id="thirdElement"></span>
+                            <span><img src="images/Humidity.png" alt="" id="humidity"></span>
+                        </p>
+                     </div>
+                    <div>
+                        <p>
+                            <span><img src="" alt="" id="icon"></span>
+                            <span id="description"></span>
+                        </p>
+                        </div>
+                </div>
+            </div>
+        </main>
+        
+    <footer>
+        <p> © Copyright 2021-BirladoTech & RwTechnology</p>
+    </footer>
+
+</div>
+</body>
+</html>
